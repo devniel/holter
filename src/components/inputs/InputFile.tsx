@@ -14,7 +14,7 @@ export const InputFile = ({ onChange }: { onChange : (file: File) => void }) => 
   return (
     <div className="text-center">
       <ECGIcon />
-      <h3 className="mt-2 text-sm font-semibold text-gray-900">ECG Delineation</h3>
+      <h3 className="mt-2 text-sm font-semibold text-gray-900">Holter Record Summary</h3>
       <p className="mt-1 text-sm text-gray-500">Please upload a record file.</p>
       <div className="mt-6">
         <label

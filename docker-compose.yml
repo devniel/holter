@@ -1,14 +1,14 @@
 version: '3'
 services:
-  ecg-test:
+  holter-test:
     build:
       context: .
       target: test
-  ecg-prod:
+  holter-prod:
     build:
       context: .
       target: prod
     ports:
       - 3000:3000
     depends_on:
-      - ecg-test
+      - holter-test
