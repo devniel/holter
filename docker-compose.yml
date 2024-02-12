@@ -1,0 +1,14 @@
+version: '3'
+services:
+  ecg-test:
+    build:
+      context: .
+      target: test
+  ecg-prod:
+    build:
+      context: .
+      target: prod
+    ports:
+      - 3000:3000
+    depends_on:
+      - ecg-test
