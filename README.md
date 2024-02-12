@@ -1,6 +1,11 @@
 # Holter Record Summary
 
-## 🚀 Getting started
+## ⚡️ Demo
+https://holter.devniel.com
+
+*You can use the `tests/fixtures` CSV files to test the UI.
+
+## 🚀 Running locally
 #### With Docker
 
 ```bash
