@@ -18,6 +18,9 @@ docker compose down
 #### Without Docker
 
 - Install Node, at least v18.19, you can use NVM https://github.com/nvm-sh/nvm.
+- Install playwright browsers using `npx playwright install`.
+- Then, run the following commands :
+
 ```bash
 npm install
 # Run tests (it will also build the project)
